@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+
+} 
+.banner{
+    width: 100%;
+    height: 100vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.3)),url(drake-motor.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end; 
+
+.logo{
+    width: 7%;
+    height: 7%;
+    margin-left: 0px;
+    padding-top: auto;
+    padding-right: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+     
+}
+
+.navbar ul li a{
+
+text-decoration: none;
+color: #fff;
+text-transform: uppercase; 
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0 ;
+    background: #a39161;
+    position: absolute; 
+    left: 0;
+    bottom: -5px;
+    transition: 0.8s;
+}
+.navbar ul li:hover::after{
+     width: 100%;
+}
+.content {
+    margin-top: 7%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #a39161;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.content a{
+        font-size: 200%;
+        margin-top: 80px;
+        transition: transform 0.3s ease-in-out;
+        text-decoration: none;
+        color: #a39161;
+        text-transform: None;
+        
+}
+
+.content h2:hover {
+    transform: scale(1.1);
+}
+.footer-content p{
+    margin-top: 15%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
